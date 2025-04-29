@@ -1,6 +1,12 @@
 # flight_manual
 LLM Interaction with ArduPilot vehicles via Dronekit
 
+Project to explore enabling Ardupilot vehicles with realtime LLM assistance
+Focus:
+  - agentic execution
+  - multimodal capabilities
+  - minimum latency and max token efficiency
+
 ## Quick Start
 ```
 with python 3.12.9:
@@ -53,6 +59,7 @@ producing responses in JSON or Pydantic-compatible formats.
 
 * Mission Planner
 
+<br><br>
 #### Fix dronekit import issue
 * Fix `import dronekit` error: <br>
   `AttributeError: module 'collections' has no attribute 'MutableMapping'`
