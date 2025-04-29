@@ -6,7 +6,11 @@ Project to explore enabling Ardupilot vehicles with realtime LLM assistance
 Focus:
   - agentic execution
   - multimodal capabilities
+     - voice input, voice output
+     - video input (gesture detection)
+     - realtime api's
   - minimum latency and max token efficiency
+     - logging and mapping value of different options
 
 > You can easily integrate this with my UnrealEngine - Ardupilot project:<br>
 > (https://github.com/igsxf22/python_unreal_ardupilot)
