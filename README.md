@@ -8,6 +8,8 @@ Focus:
   - multimodal capabilities
   - minimum latency and max token efficiency
 
+> You can easily integrate this with my UnrealEngine - Ardupilot project:<br>
+> (https://github.com/igsxf22/python_unreal_ardupilot)
 
 ## Quick Start
 ```
