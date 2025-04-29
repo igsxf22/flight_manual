@@ -2,10 +2,12 @@
 LLM Interaction with ArduPilot vehicles via Dronekit
 
 Project to explore enabling Ardupilot vehicles with realtime LLM assistance
+
 Focus:
   - agentic execution
   - multimodal capabilities
   - minimum latency and max token efficiency
+
 
 ## Quick Start
 ```
@@ -31,10 +33,13 @@ Repeat
 ```
 
 Basic demo limitations:
+ - The basic demo is a simple template to use as a starting point
  - This doesn't provide the LLM with current vehicle status and doesn't include chat memory
  - The LLM will only format commands based on the available command classes
  - These classes each have a docstring, describing the purpose and format of the command, which is passed along with user input in the prompt template
  - You can add your command classes and run methods, just add them to the `all_cmds` list on line 276 so their docstring is included in the prompt
+
+More advanced demos are in work.
 
 > **Remember**: Increasing the complexity and length of the prompt will increase latency and token cost
 
