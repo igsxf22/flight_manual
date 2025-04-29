@@ -100,9 +100,9 @@ class cmd_GoToLocal(BaseModel):
         values: {"x": float, "y": float, "z": float}
         example: {"cmd_GoToLocal": {"x": 10, "y": 0, "z": 0}}
     """
-    x: float = Field(..., le=-10., ge=10)
-    y: float = Field(..., le=-10., ge=10)
-    z: float = Field(..., le=-10., ge=10)
+    x: float = 0
+    y: float = 0
+    z: float = 0
 
     def run(self, vehicle):
         msg = vehicle.message_factory.set_position_target_local_ned_encode(
