@@ -3,7 +3,7 @@ LLM Interaction with ArduPilot vehicles via Dronekit
 
 Project to explore enabling Ardupilot vehicles with realtime LLM assistance
 
-*** This is for SITL simulated flights, not real vehicles.***
+***This is for SITL simulated flights, not real vehicles***
 
 Focus:
   - agentic execution
