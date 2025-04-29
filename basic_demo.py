@@ -238,7 +238,7 @@ Steps if input includes commands:
     2. Use the command class documents to create JSON for each command
 
 Finally, return your response as CommandPromptOutput object:
-    - text: The response text
+    - speech_response: The response text, suitable for STT output
     - commands: commands as JSON that can be unpacked into pydantic objects
     
 """
