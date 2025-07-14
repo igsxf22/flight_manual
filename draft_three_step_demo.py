@@ -85,7 +85,7 @@ CmdDocumentation = {
     "SetMode": {
         "description": "Set the vehicle mode",
         "args": {
-            "mode": "str: 'AUTO', 'GUIDED', 'RTL', or 'POSHOLD',
+            "mode": "str: 'AUTO', 'GUIDED', 'RTL', or 'POSHOLD'",
         },
         "example": {"cmd": "SetMode", "mode": "LOITER"}
     },
