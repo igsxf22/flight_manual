@@ -1,8 +1,6 @@
 # flight_manual
 LLM Interaction with ArduPilot vehicles via Dronekit
 
-Project to explore enabling Ardupilot vehicles with realtime LLM assistance
-
 ***This is for SITL simulated flights, not real vehicles***
 
 Focus:
@@ -13,6 +11,12 @@ Focus:
      - realtime api's
   - minimum latency and max token efficiency
      - logging and mapping value of different options
+
+> Example with MissionPlanner and UnrealEngine:
+<img width="602" height="700" alt="image" src="https://github.com/user-attachments/assets/f1e16c9d-de2f-4279-9daf-a81e3e582dd4" />
+
+
+
 
 > You can easily integrate this with my UnrealEngine - Ardupilot project:<br>
 > (https://github.com/igsxf22/python_unreal_ardupilot)
