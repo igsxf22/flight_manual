@@ -24,7 +24,7 @@ Focus:
 ## Quick Start
 ```
 with python 3.12.9:
-  pip install openai dronekit pymavlink
+  pip install openai dronekit pymavlink future pyyaml
 
 with mission planner:
   Go to simulation tab on the top left menu
