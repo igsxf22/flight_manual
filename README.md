@@ -68,6 +68,8 @@ or APIs that support custom schemas. This includes modern LLMs
 trained for structured output generation, such as those capable of
 producing responses in JSON or Pydantic-compatible formats.
 
+> Gemini Demo: Get API key at https://aistudio.google.com/api-keys
+
 ### Basic Demo Reqs:
 * Python (built with 3.12.9)
   * Dronekit
@@ -92,5 +94,17 @@ producing responses in JSON or Pydantic-compatible formats.
   Change to:
 
     class Parameters(collections.abc.MutableMapping, HasObservers):
+  ```
+  Or run:
+  
+  ```python
+  from pathlib import Path
+  p = Path('Lib\site-packages\dronekit\__init__.py')
+  
+  data = p.read_text()
+  data = data.replace('collections.MutableMapping', 'collections.abc.MutableMapping')
+  p.write_text(data)
+  
+  print("Dronekit __init__.py patched successfully.")
   ```
 
