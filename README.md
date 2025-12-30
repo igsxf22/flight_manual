@@ -30,9 +30,10 @@ with mission planner:
   Go to simulation tab on the top left menu
   Click multirotor then stable in pop up
 
-run basic_demo.py
+run basic_demo.py or basic_demo_gemini.py
 input your openai api key
-  (better, add your own method to set os.environ["OPENAI_API_KEY"]
+  (better, add your own method to set os.environ["OPENAI_API_KEY"],
+  or 'GEMINI_API_KEY', etc)
 
 when ready, terminal should display:
   Enter command:
