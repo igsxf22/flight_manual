@@ -24,7 +24,7 @@ Focus:
 ## Quick Start
 ```
 with python 3.12.9:
-  pip install openai dronekit pymavlink future pyyaml
+  pip install openai google-genai dronekit pymavlink future pyyaml 
 
 with mission planner:
   Go to simulation tab on the top left menu
@@ -68,13 +68,15 @@ or APIs that support custom schemas. This includes modern LLMs
 trained for structured output generation, such as those capable of
 producing responses in JSON or Pydantic-compatible formats.
 
-> Gemini Demo: Get API key at https://aistudio.google.com/api-keys
+Gemini Demo requires free Gemini API key
+> Get API key at https://aistudio.google.com/api-keys. <br> Usage limits may apply.
 
 ### Basic Demo Reqs:
 * Python (built with 3.12.9)
   * Dronekit
   * Pymavlink
   * OpenAI
+  * Google-GenAI
 
 * Mission Planner
 
