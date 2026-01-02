@@ -362,21 +362,6 @@ mavproxy --master=<flight controller or SITL> --out=<relay connection 1> --out=<
    ```
 
 2. Docker SITL - DroneKit Python - Mission Planner GCS
-
-   With Docker desktop, you can search for a SITL image to run
-   - e.g. `radarku/ardupilot-sitl:latest`
-  
-   Check the documentation of the image to find SITL address
-   
-   With paths:
-    - SITL: `tcp:127.0.0.1:5760`
-    - Mission Planner: `udp:127.0.0.1:14550`
-    - DroneKit: `udp:127.0.0.1:14551`
-
-   Start in cmd terminal:
-   
-   ```
-   mavproxy --master=tcp:127.0.0.1:5760 --out=udp:127.0.0.1:14550 --out=udp:127.0.0.1:14551
-   ```
+...
 
    
