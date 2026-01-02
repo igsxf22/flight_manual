@@ -368,13 +368,12 @@ mavproxy --master=<flight controller or SITL> --out=<relay connection 1> --out=<
   
    Check the documentation of the image to find SITL address
    
-    With paths:
+   With paths:
     - SITL: `tcp:127.0.0.1:5760`
     - Mission Planner: `udp:127.0.0.1:14550`
     - DroneKit: `udp:127.0.0.1:14551`
 
-  
-    Start in cmd terminal:
+   Start in cmd terminal:
    
    ```
    mavproxy --master=tcp:127.0.0.1:5760 --out=udp:127.0.0.1:14550 --out=udp:127.0.0.1:14551
