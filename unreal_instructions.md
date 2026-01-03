@@ -137,9 +137,13 @@ Copy and paste into editor, CTRL+S to save, CTRL+Q to return to terminal
       https://github.com/igsxf22/python_unreal_relay
   """
   # Fix for the error: AttributeError: module 'collections' has no attribute 'MutableMapping'
-  from collections import abc
-  import collections
-  collections.MutableMapping = abc.MutableMapping
+  try:
+    from dronekit import connect, VehicleMode, Vehicle, LocationGlobalRelative
+  except Exception as e:
+    print("Applying run-time fix for Dronekit collections deprecation")
+    from collections import abc
+    import collections
+    collections.MutableMapping = abc.MutableMapping
   
   import time
   import math
