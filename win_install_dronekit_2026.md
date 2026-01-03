@@ -176,15 +176,15 @@ You should see live telemetry printed every second.
 
 ## 9. Manual Arm and Takeoff in Mission Planner
 
-1. In Mission Planner, click **Arm/Disarm**.
+1. In Mission Planner **Actions** panel, change the Mode dropdown to **GUIDED** and then click **Arm/Disarm**.
 
-<img width="1204" height="625" alt="image" src="https://github.com/user-attachments/assets/90c90a32-b6e1-458a-8c31-06d6439ecec2" />
+<img width="463" height="636" alt="image" src="https://github.com/user-attachments/assets/dbe7a083-eff3-4d4a-b43f-70f39e865701" />
 
 2. After arming, you have ~10 seconds to take off before auto‑disarm.
    
 4. Right‑click the map → **Takeoff** → enter altitude.
 
-<img width="1208" height="595" alt="image" src="https://github.com/user-attachments/assets/3aaa481b-e303-4a17-a96b-5b8ff0be2456" />
+<img width="1216" height="638" alt="image" src="https://github.com/user-attachments/assets/293fe84f-cc80-4754-ac20-004224c26846" />
 
 ---
 
