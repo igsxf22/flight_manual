@@ -128,6 +128,11 @@ Copy and paste into editor, CTRL+S to save, CTRL+Q to return to terminal
           time.sleep(1)
   ```
 
+Create new `dronekit_unreal.py` script to link vehicle to Unreal Engine actor (ie first person camera / 'player') in game
+  ```
+  edit dronekit_unreal.py
+  ```
+
 Copy and paste into editor, CTRL+S to save, CTRL+Q to return to terminal
   ```python
   """
@@ -237,3 +242,13 @@ Copy and paste into editor, CTRL+S to save, CTRL+Q to return to terminal
           
           time.sleep(1/60)
   ```
+
+## Run
+1. Open Mission Planner and start a SITL instance
+2. In activated dronekit venv with the scripts saved above:
+   
+   ```
+   python dronekit_unreal.py
+   ```
+4. Launch the standalone unreal .exe (probably called `devtest.exe` right now)
+5. Issue commands in Mission Planner Guided (Arm, Takeoff, Move to location), in-game first person camera should match camera location, orientation.
