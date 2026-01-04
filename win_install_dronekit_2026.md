@@ -173,7 +173,7 @@ Run it:
 python connect_and_read.py
 ```
 
-You should see live telemetry printed every second.
+In the terminal, you should see live telemetry printed every second.
 
 ---
 
@@ -209,7 +209,7 @@ In Mission Planner:
 
 <img width="445" height="396" alt="image" src="https://github.com/user-attachments/assets/95c6533f-ff7f-4c37-8337-75d9b6edc025" />
 
-You should see DroneKit telemetry update as the vehicle moves.
+In the terminal used to start the python script, you should see DroneKit telemetry update as the vehicle moves.
 
 ---
 
