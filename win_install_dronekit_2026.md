@@ -5,6 +5,8 @@ This guide walks you through setting up a Python environment, installing DroneKi
 > [!NOTE]
 > We'll eventually create a clean repo containing the required .py files and reqs
 
+> The original documents for DroneKit are [here](https://dronekit.netlify.app/). They're outdated, but the code works fine if you just write with Python3 syntax.
+
 ---
 
 ## 1. Create a New Python Virtual Environment
