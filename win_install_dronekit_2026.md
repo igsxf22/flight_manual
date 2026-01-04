@@ -180,9 +180,11 @@ You should see live telemetry printed every second.
 
 <img width="463" height="636" alt="image" src="https://github.com/user-attachments/assets/dbe7a083-eff3-4d4a-b43f-70f39e865701" />
 
-2. After arming, you have ~10 seconds to take off before auto‑disarm.
-   
-4. Right‑click the map → **Takeoff** → enter altitude.
+> [!IMPORTANT]
+> **After arming, you have ~10 seconds to take off before auto‑disarm.**
+> This is a default safety parameter in the vehicles. If you don't takeoff by then, just rearm and try again.
+
+2. Right‑click the map → **Takeoff** → enter altitude.
 
 <img width="1216" height="638" alt="image" src="https://github.com/user-attachments/assets/293fe84f-cc80-4754-ac20-004224c26846" />
 
