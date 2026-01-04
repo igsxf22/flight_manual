@@ -4,7 +4,7 @@ The Unreal Engine 5 app has a built-in TCP relay that will connect to a Python s
 The TCP relay Python script requires only native Python libraries, while the TCP + Dronekit version requires a Dronekit venv.
 
 > [!NOTE]
-> This assumes you completed the windows Mission Planner / Dronekit [instructions](win_install_dronekit_2026.md)
+> This assumes you completed the Getting Started with Windows Mission Planner / Dronekit [Instructions](win_install_dronekit_2026.md)
 
 ## Scripts
 
