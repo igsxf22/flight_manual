@@ -335,7 +335,11 @@ You now have:
 You can now expand into autonomous missions, waypoint uploads, guided navigation, and more.
 
 ---
+## Link Unreal Engine to SITL
+1. Request url to download standalone .exe that launches the game
+2. [Instructions](unreal_instructions.md)
 
+---
 ## MavProxy
 [MavProxy Docs](https://ardupilot.org/mavproxy/)
 
