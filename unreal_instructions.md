@@ -5,7 +5,13 @@ The TCP relay Python script requires only native Python libraries, while the TCP
 
 ## Scripts
 
-Open a new cmd terminal, navigate to your dronekit environment
+Open a new cmd terminal, navigate to your dronekit environment and activate it
+
+For example:
+  ```
+  cd dronekit3
+  Scripts\activate.bat
+  ```
 
 Inside your dronekit environment dir, create a new python file for the `tcp_relay.py` script
   ```
