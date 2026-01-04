@@ -339,8 +339,9 @@ You can now expand into autonomous missions, waypoint uploads, guided navigation
 
 ---
 ## Link Unreal Engine to SITL
-1. Request url to download standalone .exe that launches the game
-2. [Instructions](unreal_instructions.md)
+First, contact me to request url to download standalone .exe that launches the game
+
+Then, see [Instructions](unreal_instructions.md)
 
 ---
 ## MavProxy
