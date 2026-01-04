@@ -6,6 +6,9 @@ The TCP relay Python script requires only native Python libraries, while the TCP
 > [!NOTE]
 > This assumes you completed the Getting Started with Windows Mission Planner / Dronekit [Instructions](win_install_dronekit_2026.md)
 
+> [!NOTE]
+> I haven't done any work on checking GPU requirements or comapatibility to run the game yet, but right now the game is super simple without any fancy models or effects, and ***should*** run well enough on most PCs
+
 ## Scripts
 
 Open a new cmd terminal, navigate to your dronekit environment and activate it
