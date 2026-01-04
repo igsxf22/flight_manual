@@ -374,6 +374,22 @@ mavproxy --master=<flight controller or SITL> --out=<relay connection 1> --out=<
    ```
 
 2. Docker SITL - DroneKit Python - Mission Planner GCS
-...
+    > TBD
+    
+---
+## Install LLM / Agent APIs
 
-   
+Install OpenAI and Gemini API:
+
+```
+pip install openai google-genai
+```
+
+Get [Gemini API Keys](https://ai.google.dev/gemini-api/docs/api-key)
+
+Install Agno: (In work)
+
+```
+pip install -U agno anthropic mcp fastapi sqlalchemy
+```
+
