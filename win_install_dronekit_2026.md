@@ -2,6 +2,9 @@
 
 This guide walks you through setting up a Python environment, installing DroneKit, running ArduPilot SITL through Mission Planner, and testing vehicle control using Python scripts.
 
+> [!NOTE]
+> We'll eventually create a clean repo containing the required .py files and reqs
+
 ---
 
 ## 1. Create a New Python Virtual Environment
